@@ -1,4 +1,5 @@
-
+// formats the citations into a bibliography -- fit for any style
+// bibliography is formatted in html
 
 import axios from 'axios'
 
