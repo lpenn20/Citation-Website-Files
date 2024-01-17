@@ -1,4 +1,4 @@
-// adds all created citations into a bibliography formatted in xml -- built for microsoft word download
+// adds all created citations into a bibliography formatted in xml -- built for microsoft word upload
 // works for a variety of citation styles
 
 const getStyleAttributes = (citation) => {
