@@ -1,3 +1,5 @@
+// list of functions to properly format certain citation data
+
 import { urlRegex } from "@library/regexes";
 import nlp from "compromise";
 export const formatData = async (source, mode) => {
