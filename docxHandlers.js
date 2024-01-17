@@ -1,3 +1,6 @@
+// adds all created citations into a bibliography formatted in xml -- built for microsoft word download
+// works for a variety of citation styles
+
 const getStyleAttributes = (citation) => {
   const styleAttributes = {
     secondFieldAlign: false,
