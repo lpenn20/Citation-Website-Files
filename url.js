@@ -1,3 +1,4 @@
+// uses web scraping to retreive data from websites. analyses this data to find citation information from that website, such as the author, date, etc.
 
 import { fetchUrlApis } from "./urlsSpecifics";
 import axios from "axios";
@@ -128,7 +129,7 @@ async function findType(citer) {
     const response = await axios.get("https://app.scrapingbee.com/api/v1/", {
       params: {
         api_key:
-        "OM6YALSFXJV6FMXD0JJ4EKTM1DBUOJ5IS3SD2G245KVGZVW1TA8QUI5FTBVMRPMEALDVBQKEOHVSBAAW",
+        process.env.SCRAPINGBEE_API_KEY,
         url: citer.api.searchString,
       },
     });
