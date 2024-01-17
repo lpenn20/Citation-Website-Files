@@ -1,1 +1,1 @@
-Some files for a website that streamlines the citation proccess. The website is soon to release.
+Some files for a website that streamlines the citation proccess. These files contribute to obtaining citation data and using this data to create a bibliography in a variety of citation styles. The website is soon to release.
